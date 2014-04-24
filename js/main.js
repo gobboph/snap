@@ -44,7 +44,6 @@ discs.attr({fill: "R(150, 150, 100)#fff-#000"});
 p.select("path").animate({stroke: "#f00"}, 1000);
 
 Snap.load("img/states.svg", function (f) {
-	f.attr({heigth: 100, width: 200});
 	g = f.select("NY");
 	s.append(f);
 	g.drag;
